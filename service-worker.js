@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ps-7-bhris-g/precache-manifest.7ef99e19bef226ecf9197c39cb3992e6.js"
+  "/ps-7-bhrisg/precache-manifest.0da8ae8c84b066b8a4b69cdbd32ff077.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ps-7-bhris-g/index.html", {
+workbox.routing.registerNavigationRoute("/ps-7-bhrisg/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
